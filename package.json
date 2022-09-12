@@ -1,19 +1,16 @@
 {
-  "name": "jest-another-rpg",
+  "name": "rpg",
   "version": "1.0.0",
-  "description": "an RPG made to test Jest",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SebasMelendez/jest-another-RPG.git"
-  },
-  "author": "Sebas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SebasMelendez/jest-another-RPG/issues"
-  },
-  "homepage": "https://github.com/SebasMelendez/jest-another-RPG#readme"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^24.9.0"
+  }
 }
